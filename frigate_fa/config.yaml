@@ -37,6 +37,10 @@ ports_description:
   8971/tcp: Authenticated Web interface
   5000/tcp: Unauthenticated Web interface (not required for Home Assistant Ingress)
   1984/tcp: go2rtc API
+devices: 
+  - /dev/memx0
+Volumes:
+  - /mnt/mxa_manager:/run/mxa_manager
 host_network: false
 tmpfs: true
 video: true
