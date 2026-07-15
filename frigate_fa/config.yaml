@@ -39,7 +39,7 @@ ports_description:
   1984/tcp: go2rtc API
 devices: 
   - /dev/memx0
-Volumes:
+volumes:
   - /run/mxa_manager:/run/mxa_manager
 host_network: false
 tmpfs: true
